@@ -1,0 +1,14 @@
+sh_pfc.c:32:22:gpio_read_raw_reg	8	static
+sh_pfc.c:49:13:gpio_write_raw_reg.part.5	8	static
+sh_pfc.c:226:12:get_data_reg	12	static
+sh_pfc.c:540:13:sh_gpio_set_value	24	static
+sh_pfc.c:320:12:pinmux_config_gpio	56	static
+sh_pfc.c:493:12:pinmux_direction	24	static
+sh_pfc.c:579:5:register_pinmux	32	static
+sh_pfc.c:589:5:unregister_pinmux	0	static
+sh_pfc.c:599:5:gpio_request	32	static
+sh_pfc.c:605:5:gpio_free	16	static
+sh_pfc.c:611:5:gpio_direction_input	0	static
+sh_pfc.c:616:5:gpio_direction_output	16	static
+sh_pfc.c:621:6:gpio_set_value	0	static
+sh_pfc.c:626:5:gpio_get_value	16	static

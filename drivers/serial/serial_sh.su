@@ -1,0 +1,10 @@
+serial_sh.c:131:13:handle_error	0	static
+serial_sh.c:61:13:sh_serial_setbrg	8	static
+serial_sh.c:77:12:sh_serial_init	8	static
+serial_sh.c:158:12:sh_serial_tstc	8	static
+serial_sh.c:139:6:serial_raw_putc	0	static
+serial_sh.c:151:13:sh_serial_putc	8	static
+serial_sh.c:169:5:serial_getc_check	8	static
+serial_sh.c:182:12:sh_serial_getc	8	static
+serial_sh.c:214:6:sh_serial_initialize	0	static
+serial_sh.c:219:30:default_serial_console	0	static

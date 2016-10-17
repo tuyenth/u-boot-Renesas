@@ -1,0 +1,12 @@
+sh_eth.c:616:12:sh_eth_bb_init	0	static
+sh_eth.c:621:12:sh_eth_bb_mdio_active	0	static
+sh_eth.c:630:12:sh_eth_bb_mdio_tristate	0	static
+sh_eth.c:639:12:sh_eth_bb_set_mdio	0	static
+sh_eth.c:651:12:sh_eth_bb_get_mdio	0	static
+sh_eth.c:660:12:sh_eth_bb_set_mdc	0	static
+sh_eth.c:78:5:sh_eth_send	24	static
+sh_eth.c:672:12:sh_eth_bb_delay	8	static
+sh_eth.c:136:5:sh_eth_recv	24	static
+sh_eth.c:552:6:sh_eth_halt	0	static
+sh_eth.c:523:5:sh_eth_init	40	static
+sh_eth.c:558:5:sh_eth_initialize	16	static

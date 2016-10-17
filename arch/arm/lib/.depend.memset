@@ -1,0 +1,5 @@
+memset.o: memset.S \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/linkage.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/linkage.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/config.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/assembler.h

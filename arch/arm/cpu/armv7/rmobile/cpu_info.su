@@ -1,0 +1,6 @@
+cpu_info.c:28:5:arch_cpu_init	8	static
+cpu_info.c:36:6:enable_caches	0	static
+cpu_info.c:43:12:__rmobile_get_cpu_type	0	static
+cpu_info.c:50:12:__rmobile_get_cpu_rev_integer	0	static
+cpu_info.c:57:12:__rmobile_get_cpu_rev_fraction	0	static
+cpu_info.c:64:5:print_cpuinfo	8	static

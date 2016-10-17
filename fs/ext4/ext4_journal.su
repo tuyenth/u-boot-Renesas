@@ -1,0 +1,14 @@
+ext4_journal.c:92:6:ext4fs_dump_metadata	24	static
+ext4_journal.c:105:6:ext4fs_free_journal	24	static
+ext4_journal.c:133:5:ext4fs_log_gdt	40	static
+ext4_journal.c:155:5:ext4fs_log_journal	32	static
+ext4_journal.c:187:5:ext4fs_put_metadata	32	static
+ext4_journal.c:203:6:print_revoke_blks	16	static
+ext4_journal.c:237:6:ext4fs_push_revoke_blk	32	static
+ext4_journal.c:266:6:ext4fs_free_revoke_blks	16	static
+ext4_journal.c:289:5:check_blknr_for_revoke	16	static
+ext4_journal.c:329:6:recover_transaction	168	static
+ext4_journal.c:383:6:print_jrnl_status	0	static
+ext4_journal.c:391:5:ext4fs_check_journal_state	168	static
+ext4_journal.c:33:5:ext4fs_init_journal	32	static
+ext4_journal.c:635:6:ext4fs_update_journal	328	static

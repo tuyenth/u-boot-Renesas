@@ -1,0 +1,11 @@
+sh_timer.c:98:13:tmu_timer_stop.part.2.constprop	0	static
+sh_timer.c:91:13:tmu_timer_start.part.1.constprop	0	static
+bitops.h:12:19:generic_ffs.part.0.constprop	0	static
+sh_timer.c:54:15:get_tbclk	8	static
+sh_timer.c:108:5:sh_timer_init	8	static
+sh_timer.c:122:5:timer_init	8	static
+sh_timer.c:151:20:get_ticks	12	static
+sh_timer.c:181:6:__udelay	32	static
+sh_timer.c:193:15:get_timer	24	static
+sh_timer.c:199:6:set_timer	0	static
+sh_timer.c:204:6:reset_timer	8	static

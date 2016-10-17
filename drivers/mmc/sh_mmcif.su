@@ -1,0 +1,7 @@
+sh_mmcif.c:89:12:mmcif_wait_interrupt_flag	16	static
+sh_mmcif.c:550:13:sh_mmcif_set_ios	8	static
+sh_mmcif.c:127:13:sh_mmcif_sync_reset.isra.2	8	static
+sh_mmcif.c:567:12:sh_mmcif_init	8	static
+sh_mmcif.c:142:12:sh_mmcif_error_manage	8	static
+sh_mmcif.c:521:12:sh_mmcif_request	32	static
+sh_mmcif.c:576:5:mmcif_mmc_init	16	static

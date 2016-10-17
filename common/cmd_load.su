@@ -1,0 +1,2 @@
+cmd_load.c:144:14:load_serial	864	static
+cmd_load.c:54:12:do_load_serial	16	static

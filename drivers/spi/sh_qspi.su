@@ -1,0 +1,13 @@
+sh_qspi.c:135:12:sh_qspi_xfer.isra.0	16	static
+sh_qspi.c:52:6:spi_init	0	static
+sh_qspi.c:56:19:spi_setup_slave	16	static
+sh_qspi.c:91:6:spi_free_slave	0	static
+sh_qspi.c:98:5:spi_claim_bus	0	static
+sh_qspi.c:103:6:spi_release_bus	0	static
+sh_qspi.c:159:5:sh_qspi_xfer_quad	48	static
+sh_qspi.c:233:5:sh_qspi_xfer_fast	40	static
+sh_qspi.c:282:5:spi_xfer_quad	16	static
+sh_qspi.c:314:5:spi_xfer	8	static
+sh_qspi.c:340:6:spi_cs_is_valid	0	static
+sh_qspi.c:345:6:spi_cs_activate	0	static
+sh_qspi.c:349:6:spi_cs_deactivate	0	static

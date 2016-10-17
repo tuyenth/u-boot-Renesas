@@ -1,0 +1,8 @@
+crc7.o: crc7.c \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/types.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/config.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/posix_types.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/stddef.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/posix_types.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/types.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/crc7.h

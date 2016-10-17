@@ -1,0 +1,2 @@
+ehci-r8a779x.c:51:5:ehci_hcd_stop	16	static
+ehci-r8a779x.c:84:5:ehci_hcd_init	20	static

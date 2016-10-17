@@ -1,0 +1,14 @@
+lowlevel_init.o: lowlevel_init.S \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/config.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/config_cmd_defaults.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/config_defaults.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/configs/silk.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/arch/rmobile.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/arch/r8a7794.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/types.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/config.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/config_fallbacks.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/config_uncmd_spl.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/linkage.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/asm/linkage.h \
+ /media/Yocto/AGL_source/build-silk/tmp/work/silk-poky-linux-gnueabi/u-boot/v2013.01.01+gitAUTOINC+b653737dfc-r0/git/include/linux/config.h

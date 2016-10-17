@@ -1,0 +1,10 @@
+sh_sdhi.c:42:13:sdhi_detect	0	static
+sh_sdhi.c:638:12:sdhi_init	0	static
+sh_sdhi.c:136:12:sdhi_wait_interrupt_flag	24	static
+sh_sdhi.c:389:13:sdhi_get_response	40	static
+sh_sdhi.c:156:13:sdhi_clock_control	4	static
+sh_sdhi.c:608:13:sdhi_set_ios	16	static
+sh_sdhi.c:186:13:sdhi_sync_reset	16	static
+sh_sdhi.c:209:12:sdhi_error_manage	16	static
+sh_sdhi.c:588:12:sdhi_request	32	static
+sh_sdhi.c:643:5:sdhi_mmc_init	24	static

@@ -1,0 +1,4 @@
+miiphybb.c:169:13:miiphy_pre	24	static
+miiphybb.c:125:6:bb_miiphy_init	16	static
+miiphybb.c:249:5:bb_miiphy_read	48	static
+miiphybb.c:330:5:bb_miiphy_write	40	static
