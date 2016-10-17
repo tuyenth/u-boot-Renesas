@@ -34,6 +34,8 @@
 #define PHYS_OFFSET	ALT_SDRAM_BASE
 #elif defined(SILK_SDRAM_BASE)
 #define PHYS_OFFSET	SILK_SDRAM_BASE
+#elif defined(STOUT_SDRAM_BASE)
+#define PHYS_OFFSET	STOUT_SDRAM_BASE
 #else
 #error
 #endif
