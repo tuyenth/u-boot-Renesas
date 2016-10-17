@@ -1,6 +1,6 @@
 /*
- * board/renesas/stout/qos.c
- *     This file is stout QoS setting.
+ * board/renesas/r8a7790stout/qos.c
+ *     This file is r8a7790-stout QoS setting.
  *
  * Copyright (C) 2015 Renesas Electronics Europe GmbH
  * Copyright (C) 2015 Renesas Electronics Corporation
@@ -1180,9 +1180,18 @@ void qos_init_es2(void)
 	/* S3C -QoS */
 	s3c = (struct r8a7790_s3c *)S3C_BASE;
 	writel(0x80000000, &s3c->s3cadsplcr);
+#if CONFIG_QOS_PRI_VIN
+	writel(0x1F070606, &s3c->s3crorr);
+	writel(0x1F070606, &s3c->s3cworr);
+#elif CONFIG_QOS_PRI_MEDIA
+	writel(0x1F060302, &s3c->s3crorr);
+	writel(0x07070302, &s3c->s3cworr);
 #elif CONFIG_QOS_PRI_NORMAL
 	writel(0x1F060504, &s3c->s3crorr);
 	writel(0x07070503, &s3c->s3cworr);
+#elif CONFIG_QOS_PRI_GFX
+	writel(0x1F060606, &s3c->s3crorr);
+	writel(0x07070606, &s3c->s3cworr);
 #else
 #error "CONFIG_QOS_PRI_* not defined"
 #endif
@@ -1192,14 +1201,26 @@ void qos_init_es2(void)
 	writel(0x00890089, &s3c_qos->s3cqos0);
 	writel(0x20960010, &s3c_qos->s3cqos1);
 	writel(0x20302030, &s3c_qos->s3cqos2);
+#if CONFIG_QOS_PRI_VIN
+	writel(0x20AA2100, &s3c_qos->s3cqos3);
+#elif CONFIG_QOS_PRI_MEDIA
+	writel(0x20AA2300, &s3c_qos->s3cqos3);
 #elif CONFIG_QOS_PRI_NORMAL
 	writel(0x20AA2200, &s3c_qos->s3cqos3);
+#elif CONFIG_QOS_PRI_GFX
+	writel(0x20AA2100, &s3c_qos->s3cqos3);
 #endif
 	writel(0x00002032, &s3c_qos->s3cqos4);
 	writel(0x20960010, &s3c_qos->s3cqos5);
 	writel(0x20302030, &s3c_qos->s3cqos6);
+#if CONFIG_QOS_PRI_VIN
+	writel(0x20AA2100, &s3c_qos->s3cqos7);
+#elif CONFIG_QOS_PRI_MEDIA
+	writel(0x20AA2300, &s3c_qos->s3cqos7);
 #elif CONFIG_QOS_PRI_NORMAL
 	writel(0x20AA2200, &s3c_qos->s3cqos7);
+#elif CONFIG_QOS_PRI_GFX
+	writel(0x20AA2100, &s3c_qos->s3cqos7);
 #endif
 	writel(0x00002032, &s3c_qos->s3cqos8);
 
@@ -1207,14 +1228,26 @@ void qos_init_es2(void)
 	writel(0x00890089, &s3c_qos->s3cqos0);
 	writel(0x20960010, &s3c_qos->s3cqos1);
 	writel(0x20302030, &s3c_qos->s3cqos2);
+#if CONFIG_QOS_PRI_VIN
+	writel(0x20AA2100, &s3c_qos->s3cqos3);
+#elif CONFIG_QOS_PRI_MEDIA
+	writel(0x20AA2300, &s3c_qos->s3cqos3);
 #elif CONFIG_QOS_PRI_NORMAL
 	writel(0x20AA2200, &s3c_qos->s3cqos3);
+#elif CONFIG_QOS_PRI_GFX
+	writel(0x20AA2100, &s3c_qos->s3cqos3);
 #endif
 	writel(0x00002032, &s3c_qos->s3cqos4);
 	writel(0x20960010, &s3c_qos->s3cqos5);
 	writel(0x20302030, &s3c_qos->s3cqos6);
+#if CONFIG_QOS_PRI_VIN
+	writel(0x20AA2100, &s3c_qos->s3cqos7);
+#elif CONFIG_QOS_PRI_MEDIA
+	writel(0x20AA2300, &s3c_qos->s3cqos7);
 #elif CONFIG_QOS_PRI_NORMAL
 	writel(0x20AA2200, &s3c_qos->s3cqos7);
+#elif CONFIG_QOS_PRI_GFX
+	writel(0x20AA2100, &s3c_qos->s3cqos7);
 #endif
 	writel(0x00002032, &s3c_qos->s3cqos8);
 
@@ -1230,6 +1263,8 @@ void qos_init_es2(void)
 	writel(0x00002032, &s3c_qos->s3cqos8);
 
 	s3c_qos = (struct r8a7790_s3c_qos *)S3C_QOS_AXI_BASE;
+#if CONFIG_QOS_PRI_VIN
+	writel(0x00820082, &s3c_qos->s3cqos0);
 #else
 	writel(0x00828092, &s3c_qos->s3cqos0);
 #endif
