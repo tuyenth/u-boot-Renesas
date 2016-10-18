@@ -116,7 +116,7 @@ int board_init(void)
 	u8 val_i2c;
 
 	/* adress of boot parameters */
-	gd->bd->bi_boot_params = stout_SDRAM_BASE + 0x100;
+	gd->bd->bi_boot_params = STOUT_SDRAM_BASE + 0x100;
 
 	/* Init PFC controller */
 	r8a7790_pinmux_init();
@@ -246,8 +246,8 @@ const struct rmobile_sysinfo sysinfo = {
 
 void dram_init_banksize(void)
 {
-	gd->bd->bi_dram[0].start = stout_SDRAM_BASE;
-	gd->bd->bi_dram[0].size = stout_SDRAM_SIZE;
+	gd->bd->bi_dram[0].start = STOUT_SDRAM_BASE;
+	gd->bd->bi_dram[0].size = STOUT_SDRAM_SIZE;
 }
 
 int board_late_init(void)

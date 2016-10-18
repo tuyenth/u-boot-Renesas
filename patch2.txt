@@ -1,12 +1,14 @@
  board/renesas/stout/Makefile        |   49 +
- board/renesas/stout/cpld.c          |  181 +++
- board/renesas/stout/cpld.h          |  192 +++
- board/renesas/stout/lowlevel_init.S |   81 ++
- board/renesas/stout/qos.c           | 2455 +++++++++++++++++++++++++++++++++++
- board/renesas/stout/stout.c         |  334 +++++
+ board/renesas/stout/cpld.c          |  181 ++
+ board/renesas/stout/cpld.h          |  192 ++
+ board/renesas/stout/lowlevel_init.S |   81 +
+ board/renesas/stout/qos.c           | 2490 ++++++++++++++++++++++++
+ board/renesas/stout/stout.c         |  334 ++++
  board/renesas/stout/stout.h         |   30 +
  boards.cfg                          |    2 +
  drivers/mmc/sh_sdhi.c               |    4 +-
  drivers/usb/host/ehci-r8a779x.c     |    2 +
- include/configs/stout.h             |  206 +++
- 11 files changed, 3534 insertions(+), 2 deletions(-)
+ include/configs/stout.h             |  206 ++
+ patch.txt                           | 3624 +++++++++++++++++++++++++++++++++++
+ patch2.txt                          |   12 +
+ 13 files changed, 7205 insertions(+), 2 deletions(-)
